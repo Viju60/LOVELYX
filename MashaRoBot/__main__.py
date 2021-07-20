@@ -89,7 +89,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝐀𝐝𝐝 𝐏𝐫𝐢𝐧𝐜𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ➕️", url="t.me/MR_KING_PROBOT?startgroup=true"),
+            text="➕️ 𝗔𝗗𝗗 𝗠𝗘 𝗜𝗡 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 ➕️", url="t.me/MR_KING_PROBOT?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ℹ️𝐀𝐛𝐨𝐮𝐭", callback_data="masha_"),
@@ -97,16 +97,16 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="✨𝐏𝐫𝐢𝐧𝐜𝐞 𝐋𝐨𝐠𝐬✨", url="https://t.me/MR_KING_LOGS"),
+            text="✨𝗞𝗜𝗡𝗚 𝗟𝗢𝗚𝗦✨", url="https://t.me/MR_KING_LOGS"),
         InlineKeyboardButton(
-            text="👥𝐒𝐮𝐩𝐩𝐨𝐫𝐭👥", url="https://t.me/MR_KING_SUPPORT"),
+            text="👥𝗦𝗨𝗣𝗣𝗢𝗥𝗧👥", url="https://t.me/MR_KING_SUPPORT"),
     ],
     [  
-        InlineKeyboardButton(text="😈𝐏𝐫𝐢𝐧𝐜𝐞 𝐃𝐞𝐯𝐬😈", url="https://t.me/DEVS_OF_KING_BOT"
+        InlineKeyboardButton(text="😈𝗠𝗥᭄.𝗞𝗜𝗡𝗚 ࿐ 𝗗𝗘𝗩𝗘𝗦😈", url="https://t.me/DEVS_OF_KING_BOT"
     ),
     ], 
     [  
-        InlineKeyboardButton(text="🎧𝐕𝐜 𝐏𝐥𝐚𝐲𝐞𝐫🎧", url="https://telegra.ph/𝔏𝔬𝔳𝔢𝔩𝔶-06-15"
+        InlineKeyboardButton(text="🔱 𝗢𝗪𝗡𝗘𝗥 🔱", url="t.me/vijay114220"
     ),
     ],
 ]
@@ -114,8 +114,8 @@ buttons = [
 
 
 HELP_STRINGS = """
-༆*PRINCE comes with many special features in it*༆
-꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF LOVELY*꧂
+༆*𝗠𝗥᭄.𝗞𝗜𝗡𝗚 ࿐ comes with many special features in it*༆
+꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF KINGBOT*꧂
 𖣘 *All commands can either be used with* `/` *or* `!`.
 𖣘 *If you facing any issue or find any bugs in any command then you can report it in @MR_KING_SUPPORT* [.](https://telegra.ph/file/c6f34f8fccfce20760bce.jpg)
 """
@@ -366,16 +366,16 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *PRINCE*, a powerful group management bot built to help you manage your group easily.
-                 ❍ I can restrict users.
-                 ❍ I can greet users with customizable welcome messages and even set a group's rules.
-                 ❍ I have an advanced anti-flood system.
-                 ❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
-                 ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
-                 ❍ I check for admins' permissions before executing any command and more stuffs
+            text=""" ℹ️ I'm *𝗠𝗥᭄.𝗞𝗜𝗡𝗚 ࿐*, a powerful group management bot built to help you manage your group easily.
+                 ❖ I can restrict users.
+                 ❖ I can greet users with customizable welcome messages and even set a group's rules.
+                 ❖ I have an advanced anti-flood system.
+                 ❖ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
+                 ❖ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
+                 ❖ I check for admins' permissions before executing any command and more stuffs
                  \n_Emcee's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://t.me/LOVELYAPPEL).
-                 If you have any question about Lovely, let us know at @MR_KING_SUPPORT.""",
+                 Here is the [💾Repository](https://t.me/MR_KING_SUPPORT).
+                 If you have any question about 𝗠𝗥᭄.𝗞𝗜𝗡𝗚 ࿐, let us know at @MR_KING_SUPPORT.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -401,8 +401,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Prince*
-                 \nHere is the [Source Code](https://t.me/LOVELYAPPEL) .""",
+            text=""" Hi..🤗 I'm *𝗠𝗥᭄.𝗞𝗜𝗡𝗚 ࿐*
+                 \nHere is the [Source Code](https://t.me/MR_KING_SUPPORT) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
@@ -649,7 +649,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1677365574 and DONATION_LINK:
+        if OWNER_ID != 1235633383 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
@@ -697,7 +697,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Lovely is back with explosive features.✨")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "𝗠𝗥᭄.𝗞𝗜𝗡𝗚 ࿐ IS ONLINE WITH EXPLOSIVE FEATURES.✨")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
